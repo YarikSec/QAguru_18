@@ -1,0 +1,47 @@
+# Игнорировать виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# Игнорировать кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорировать файлы настроек IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Игнорировать файлы зависимостей
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Игнорировать файлы pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Игнорировать логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Игнорировать файлы конфигурации
+*.ini
+*.cfg
+
+# Игнорировать Jupyter Notebook
+.ipynb_checkpoints/
+
+# Игнорировать файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы специфичные для проекта
+*.sqlite3
+*.db
